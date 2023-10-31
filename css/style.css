@@ -1,0 +1,90 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color:blue;
+  font-weight: 1000;
+}
+
+body {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  border-radius: 30px;
+  padding: 2rem;
+  border: 5px blue solid;
+  box-shadow: 0 0 11px 11px blue;
+  display: flex-box;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  
+
+}
+
+/*Title Style */
+
+.title {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: 1000;
+}
+
+/*Quiz Styles*/
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.answer {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.hover-effect {
+  cursor: pointer;
+  border: 1px blue solid;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+.next:hover {
+  cursor: pointer;
+}
+
+.feedback {
+  width: 50%;
+  padding: 1 rem;
+  text-align: center;
+  font-weight: 1000;
+  border-radius: 10px;
+
+}
+
+/*Answer Styles*/
+
+.correct {
+  border-radius: 30px;
+  background-color: lightgreen;
+  color: black;
+}
+
+.incorrect {
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+}
